@@ -1,0 +1,13 @@
+[NETATMO]
+CLIENT_ID = 12345abcde
+SECRET = abcdef123456
+USERNAME = valid.email@address.com
+PASSWORD = YOURsuperSECRETpassword
+SCOPE = read_station
+GRANT_TYPE = password
+MAIN_DEVICE_ID = AA:BB:CC:DD:EE:FF
+TOKEN_URL = https://api.netatmo.com/oauth2/token
+BROKER_ADDRESS = broker_host
+BROKER_USER = broker_user
+BROKER_PASSWORD = broker_password
+BROKER_BASE_TOPIC = broker_base_topic
