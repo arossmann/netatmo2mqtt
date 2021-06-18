@@ -13,7 +13,7 @@ def publish_to_mqtt(topic, msg):
     """
     client = mqtt.Client("P1")
     client.username_pw_set(config['NETATMO']['BROKER_USER'], config['NETATMO']['BROKER_PASSWORD'])
-    client.connect(config['NETATMO']['BROKER_ADDESS'])
+    client.connect(config['NETATMO']['BROKER_ADDRESS'])
     client.publish(topic, msg)
 
 if __name__ == "__main__":
